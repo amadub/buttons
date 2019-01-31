@@ -1,0 +1,30 @@
+section {
+    width: 100%;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 4px;
+}
+
+.button:active {
+    box-shadow: 0 3px 16px 0 rgba(0,0,0,0.2), 0 3px 20px 0 rgba(0,0,0,0.19);
+    transform: translateY(1px);
+}
+
+.button-green:hover {
+    background-color: rgb(27, 206, 19);
+}
+
+.button-green {
+    background-color: #41d93b;
+    color: #fff;
+}
